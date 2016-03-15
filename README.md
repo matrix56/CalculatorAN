@@ -3,8 +3,9 @@
 ## Lista zadań
 - scorpion43, Warmish
   - [ ] UI
-    - [ ] widok prosty
-    - [ ] widok zaawansowany (naukowy?)
+    - [ ] widok prosty (SimpleCalculator)
+    - [ ] widok zaawansowany (AdvencedCalculator)
+    - [ ] klikanie na przyciski ma wyświetlać dopisywać liczby w TextView z działaniem/wynikiem
 - CrackingMinds
   - [ ] Regex interpretujący wpisane ręcznie działanie
 - bodolsog
@@ -12,7 +13,12 @@
   - [ ] Interface
 - MariyaKlymchuk
   - [ ] proste działania
-    - [ ] +, -, *, /, potęga, pierwiastek
+    - [ ] dodawanie
+    - [ ] odejmowanie
+    - [ ] mnożenie
+    - [ ] dzielenie
+    - [ ] potęga
+    - [ ] pierwiastek
 - Justine007
   - [ ] funkcje trygonometryczne
   - [ ] funkcje kwadratowe
