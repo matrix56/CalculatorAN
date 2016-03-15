@@ -4,7 +4,7 @@
 - scorpion43, Warmish
   - [ ] UI
     - [ ] widok prosty
-    - [ ] cwidok zaawansowany (naukowy?)
+    - [ ] widok zaawansowany (naukowy?)
 - CrackingMinds
   - [ ] Regex interpretujący wpisane ręcznie działanie
 - bodolsog
