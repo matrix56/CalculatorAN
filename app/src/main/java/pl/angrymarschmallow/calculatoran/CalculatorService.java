@@ -6,4 +6,6 @@ package pl.angrymarschmallow.calculatoran;
  */
 public class CalculatorService implements CalculatorEngine {
     // Miejsce na implementację metod z interfejsu :]
+
+    // ! Piszcie komentarze do metod.
 }
