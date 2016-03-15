@@ -12,7 +12,7 @@
   - Wymyśl jak to spiąć z resztą
 - bodolsog
   - [x] Readme
-  - [ ] Interface
+  - [x] Interface
 - MariyaKlymchuk
   - [ ] proste działania
     - [ ] dodawanie
