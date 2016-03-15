@@ -5,9 +5,11 @@
   - [ ] UI
     - [ ] widok prosty (SimpleCalculator)
     - [ ] widok zaawansowany (AdvencedCalculator)
-    - [ ] klikanie na przyciski ma wyświetlać dopisywać liczby w TextView z działaniem/wynikiem
+    - [ ] klikanie na przyciski powinno dopisać liczby w TextView z działaniem/wynikiem
+    - [ ] klikanie na przyciski działań wywoływać odpowiednie metody i czyścić TextView
 - CrackingMinds
   - [ ] Regex interpretujący wpisane ręcznie działanie
+  - Wymyśl jak to spiąć z resztą
 - bodolsog
   - [x] Readme
   - [ ] Interface
