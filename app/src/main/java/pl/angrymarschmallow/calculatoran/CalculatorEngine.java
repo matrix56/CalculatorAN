@@ -19,4 +19,8 @@ public interface CalculatorEngine {
     double ctg(double a);
 
     //DFT(); Nie wiem co bierze i co zwraca, wyedytuj :]
+
+    boolean perfect(int a);     // Liczba doskonała
+    boolean first(int a);       // Liczba pierwsza
+    double nwd(int a, int b);   // NWD
 }
