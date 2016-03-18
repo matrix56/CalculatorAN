@@ -21,8 +21,11 @@ public class ButtonChecker {
 
     public void clearOneCharacter(EditText editText) {
         String text = editText.getText().toString();
-        text = text.substring(0, text.length() - 1);
-        editText.setText(text);
+        // Zapobiega crashowaniu apki gdy nie było znaków.
+        if(text.length() > 0) {
+            text = text.substring(0, text.length() - 1);
+            editText.setText(text);
+        }
     }
 
 }
