@@ -108,6 +108,7 @@ public class SimpleCalculator extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //Tutaj ktoś będzie musiał zaimplementować swoją metodę która zwróci wynik
+                //taki sobie komentarz
             }
         });
 
