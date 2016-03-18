@@ -77,7 +77,7 @@
             android:layout_width="165dp"
             android:layout_height="wrap_content"
             android:text="←"
-            android:id="@+id/button7"
+            android:id="@+id/clearOneChar"
             android:layout_row="1"
             android:layout_column="2"
             android:textSize="25dp"
@@ -87,7 +87,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="1"
-            android:id="@+id/button8"
+            android:id="@+id/liczba_1"
             android:layout_row="3"
             android:layout_column="0"
             android:textSize="25dp" />
@@ -96,7 +96,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="2"
-            android:id="@+id/button9"
+            android:id="@+id/liczba_2"
             android:layout_row="3"
             android:layout_column="1"
             android:textSize="25dp" />
@@ -105,7 +105,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="3"
-            android:id="@+id/button10"
+            android:id="@+id/liczba_3"
             android:layout_row="3"
             android:layout_column="2"
             android:textSize="25dp" />
@@ -123,7 +123,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="4"
-        android:id="@+id/button12"
+        android:id="@+id/liczba_4"
         android:layout_row="4"
         android:layout_column="0"
         android:textSize="25dp" />
@@ -132,7 +132,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="5"
-            android:id="@+id/button13"
+            android:id="@+id/liczba_5"
             android:layout_row="4"
             android:layout_column="1"
             android:textSize="25dp" />
@@ -141,7 +141,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="6"
-            android:id="@+id/button14"
+            android:id="@+id/liczba_6"
             android:layout_row="4"
             android:layout_column="2"
             android:textSize="25dp" />
@@ -159,7 +159,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="7"
-            android:id="@+id/button16"
+            android:id="@+id/liczba_7"
             android:layout_row="5"
             android:layout_column="0"
             android:textSize="25dp" />
@@ -168,7 +168,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="8"
-            android:id="@+id/button17"
+            android:id="@+id/liczba_8"
             android:layout_row="5"
             android:layout_column="1"
             android:textSize="25dp" />
@@ -177,7 +177,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="9"
-            android:id="@+id/button18"
+            android:id="@+id/liczba_9"
             android:layout_row="5"
             android:layout_column="2"
             android:textSize="25dp" />
@@ -195,7 +195,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="0"
-            android:id="@+id/button20"
+            android:id="@+id/liczba_0"
             android:layout_row="6"
             android:layout_column="0"
             android:textSize="25dp" />
@@ -233,13 +233,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="0.00"
-        android:id="@+id/textView"
+        android:id="@+id/wynik"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:textSize="30dp"
         android:textColor="#000"
         android:singleLine="false"
         android:textAlignment="viewEnd" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pole_wpisywania"
+        android:layout_below="@+id/wynik"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
 
 
 </RelativeLayout>

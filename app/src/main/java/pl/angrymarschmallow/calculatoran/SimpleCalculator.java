@@ -9,226 +9,244 @@ import android.widget.TextView;
 
 public class SimpleCalculator extends AppCompatActivity {
 
-    public TextView editText;
-    public Button button1;
-    public Button button2;
-    public Button button3;
-    public Button button4;
-    public Button button5;
-    public Button button6;
-    public Button button7;
-    public Button button8;
-    public Button button9;
-    public Button button10;
-    public Button button11;
-    public Button button12;
-    public Button button13;
-    public Button button14;
-    public Button button15;
-    public Button button16;
-    public Button button17;
-    public Button button18;
-    public Button button19;
-    public Button button20;
-    public Button button21;
-    public Button button22;
-    public Button button23;
+    private EditText pole_wpisywania;
+    private TextView wynik;
+    private Button button1;
+    private Button button2;
+    private Button button3;
+    private Button button4;
+    private Button button5;
+    private Button button6;
+    private Button clearOneChar;
+    private Button liczba_1;
+    private Button liczba_2;
+    private Button liczba_3;
+    private Button button11;
+    private Button liczba_4;
+    private Button liczba_5;
+    private Button liczba_6;
+    private Button button15;
+    private Button liczba_7;
+    private Button liczba_8;
+    private Button liczba_9;
+    private Button button19;
+    private Button liczba_0;
+    private Button button21;
+    private Button button22;
+    private Button button23;
+
+    ButtonChecker bc;
+    SimpleCalculator sc;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_simple_calculator);
 
-        this.editText = (TextView) findViewById(R.id.textView);
+        bc = new ButtonChecker();
+
+        this.wynik = (TextView) findViewById(R.id.wynik);
+        this.pole_wpisywania = (EditText) findViewById(R.id.pole_wpisywania);
+
+        // Liczby
+
+        this.liczba_1 = (Button) findViewById(R.id.liczba_1);
+        this.liczba_2 = (Button) findViewById(R.id.liczba_2);
+        this.liczba_3 = (Button) findViewById(R.id.liczba_3);
+
+        this.liczba_4 = (Button) findViewById(R.id.liczba_4);
+        this.liczba_5 = (Button) findViewById(R.id.liczba_5);
+        this.liczba_6 = (Button) findViewById(R.id.liczba_6);
+
+        this.liczba_7 = (Button) findViewById(R.id.liczba_7);
+        this.liczba_8 = (Button) findViewById(R.id.liczba_8);
+        this.liczba_9 = (Button) findViewById(R.id.liczba_9);
+
+        this.liczba_0 = (Button) findViewById(R.id.liczba_0);
+
+        liczba_1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                bc.addNumeric(liczba_1, pole_wpisywania);
+            }
+        });
+
+        liczba_2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                bc.addNumeric(liczba_2, pole_wpisywania);
+            }
+        });
+
+        liczba_3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                bc.addNumeric(liczba_3, pole_wpisywania);
+            }
+        });
+
+        liczba_4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                bc.addNumeric(liczba_4, pole_wpisywania);
+            }
+        });
+
+        liczba_5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                bc.addNumeric(liczba_5, pole_wpisywania);
+
+            }
+        });
+
+        liczba_6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                bc.addNumeric(liczba_6, pole_wpisywania);
+
+            }
+        });
+
+        liczba_7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                bc.addNumeric(liczba_7, pole_wpisywania);
+            }
+        });
+
+        liczba_8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                bc.addNumeric(liczba_8, pole_wpisywania);
+
+            }
+        });
+
+        liczba_9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                bc.addNumeric(liczba_9, pole_wpisywania);
+
+            }
+        });
+
+        liczba_0.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                bc.addNumeric(liczba_0, pole_wpisywania);
+            }
+        });
+
+
+        // Buttony funkcyjne
+
         this.button1 = (Button) findViewById(R.id.button);
         this.button2 = (Button) findViewById(R.id.button2);
         this.button3 = (Button) findViewById(R.id.button3);
         this.button4 = (Button) findViewById(R.id.button4);
-
         this.button5 = (Button) findViewById(R.id.button5);
         this.button6 = (Button) findViewById(R.id.button6);
-        this.button7 = (Button) findViewById(R.id.button7);
-        this.button8 = (Button) findViewById(R.id.button8);
-        this.button9 = (Button) findViewById(R.id.button9);
-
-        this.button10 = (Button) findViewById(R.id.button10);
+        this.clearOneChar = (Button) findViewById(R.id.clearOneChar);
         this.button11 = (Button) findViewById(R.id.button11);
-        this.button12 = (Button) findViewById(R.id.button12);
-        this.button13 = (Button) findViewById(R.id.button13);
-
-        this.button14 = (Button) findViewById(R.id.button14);
         this.button15 = (Button) findViewById(R.id.button15);
-        this.button16 = (Button) findViewById(R.id.button16);
-        this.button17 = (Button) findViewById(R.id.button17);
-
-        this.button18 = (Button) findViewById(R.id.button18);
         this.button19 = (Button) findViewById(R.id.button19);
-        this.button20 = (Button) findViewById(R.id.button20);
         this.button21 = (Button) findViewById(R.id.button21);
-
         this.button22 = (Button) findViewById(R.id.button22);
         this.button23 = (Button) findViewById(R.id.button23);
+
+        clearOneChar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                bc.clearOneCharacter(pole_wpisywania);
+            }
+        });
 
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                editText = new ButtonChecker().addToTextView(button1, editText);
+                bc.clearTextView(pole_wpisywania);
             }
         });
 
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                editText = new ButtonChecker().addToTextView(button2, editText);
+                bc.clearTextView(pole_wpisywania);
             }
         });
 
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                editText = new ButtonChecker().addToTextView(button3, editText);
+                bc.clearTextView(pole_wpisywania);
             }
         });
 
         button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                editText = new ButtonChecker().clearTextView(editText);
+                bc.clearTextView(pole_wpisywania);
             }
         });
 
         button5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                editText = new ButtonChecker().addToTextView(button5, editText);
+                bc.clearTextView(pole_wpisywania);
             }
         });
 
         button6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                bc.clearTextView(pole_wpisywania);
                 //Tutaj ktoś będzie musiał zaimplementować swoją metodę która zwróci wynik
                 //taki sobie komentarz
-            }
-        });
-
-        button7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                editText = new ButtonChecker().clearOneCharacter(editText);
-            }
-        });
-
-        button8.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                editText = new ButtonChecker().addToTextView(button8, editText);
-            }
-        });
-
-        button9.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                editText = new ButtonChecker().addToTextView(button9, editText);
-            }
-        });
-
-        button10.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                editText = new ButtonChecker().addToTextView(button10, editText);
             }
         });
 
         button11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                editText = new ButtonChecker().addToTextView(button11, editText);
+                bc.clearTextView(pole_wpisywania);
             }
         });
 
-        button12.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                editText = new ButtonChecker().addToTextView(button12, editText);
-            }
-        });
 
-        button13.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                editText = new ButtonChecker().addToTextView(button13, editText);
-            }
-        });
-
-        button14.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                editText = new ButtonChecker().addToTextView(button14, editText);
-            }
-        });
 
         button15.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                editText = new ButtonChecker().addToTextView(button15, editText);
-            }
-        });
-
-        button16.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                editText = new ButtonChecker().addToTextView(button16, editText);
-            }
-        });
-
-        button17.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                editText = new ButtonChecker().addToTextView(button17, editText);
-            }
-        });
-
-        button18.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                editText = new ButtonChecker().addToTextView(button18, editText);
+                bc.clearTextView(pole_wpisywania);
             }
         });
 
         button19.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                editText = new ButtonChecker().addToTextView(button19, editText);
-            }
-        });
-
-        button20.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                editText = new ButtonChecker().addToTextView(button20, editText);
+                bc.clearTextView(pole_wpisywania);
             }
         });
 
         button21.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                editText = new ButtonChecker().addToTextView(button21, editText);
+                bc.clearTextView(pole_wpisywania);
             }
         });
 
         button22.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Tu bedzie potrzebna klasa do wyliczeń
-                //editText = new ButtonChecker().addToTextView(button22, editText);
+                bc.clearTextView(pole_wpisywania);
             }
         });
 
         button23.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                editText = new ButtonChecker().addToTextView(button23, editText);
+                bc.clearTextView(pole_wpisywania);
             }
         });
     }
