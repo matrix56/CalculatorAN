@@ -32,7 +32,7 @@ public class ButtonChecker {
 
     public TextView clearOneCharacter(TextView textView) {
         String text = textView.getText().toString();
-        text = text.substring(0, text.length() - 2);
+        text = text.substring(0, text.length() - 1);
         textView.setText(text);
         return textView;
     }
