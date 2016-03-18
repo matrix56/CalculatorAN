@@ -115,7 +115,7 @@ public class SimpleCalculator extends AppCompatActivity {
         button7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                editText = new ButtonChecker().clearTextView(editText);
+                editText = new ButtonChecker().clearOneCharacter(editText);
             }
         });
 
