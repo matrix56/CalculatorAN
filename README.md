@@ -27,7 +27,8 @@
 - vovan4ik123
   - [ ] Pamięć
 - meandors
-  - [ ] transformata Fouriera (DFT)
+  - [x] Silnia
+  - [x] Modulo
 - matrix56
   - [ ] liczba pierwsza
   - [ ] liczba doskonała
