@@ -13,219 +13,383 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
         android:layout_alignParentBottom="true"
-        android:rowCount="7"
-        android:columnCount="10"
+        android:rowCount="8"
+        android:columnCount="6"
         android:id="@+id/gridLayout"
-        android:layout_alignParentEnd="false">
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="false">
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:text="Mod"
+            android:id="@+id/mod_button"
+            android:layout_row="0"
+            android:layout_column="0" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:text="D-B"
+            android:id="@+id/decimal_binar_button"
+            android:layout_row="1"
+            android:layout_column="0"
+           />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:text="D"
+            android:id="@+id/doskonala_button"
+            android:layout_row="0"
+            android:layout_column="2" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:text="P"
+            android:id="@+id/pierwsza_button"
+            android:layout_row="0"
+            android:layout_column="1" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:text="Nw"
+            android:id="@+id/nwd_button"
+            android:layout_row="0"
+            android:layout_column="3" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:text="!"
+            android:id="@+id/silnia_button"
+            android:layout_row="0"
+            android:layout_column="4" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:text="B-D"
+            android:id="@+id/binar_decimal_button"
+            android:layout_row="1"
+            android:layout_column="1" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:text="D-X"
+            android:id="@+id/decimal_hexadecimal_button"
+            android:layout_row="1"
+            android:layout_column="2" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:text="X-D"
+            android:id="@+id/hexadecimal_decimal_button"
+            android:layout_row="1"
+            android:layout_column="3" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
             android:text="("
-            android:id="@+id/button"
-            android:layout_row="0"
-            android:layout_column="0"
-            android:textSize="25dp" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text=")"
-            android:id="@+id/button2"
-            android:layout_row="0"
-            android:layout_column="1"
-            android:textSize="25dp" />
-
-        <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="M"
-        android:id="@+id/button3"
-        android:layout_row="0"
-        android:layout_column="2"
-        android:textSize="25dp" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="C"
-            android:id="@+id/button4"
-            android:layout_row="0"
+            android:id="@+id/lewynawias_button"
+            android:layout_row="2"
             android:layout_column="3"
-            android:textSize="25dp" />
+            android:textSize="20dp" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="^"
-            android:id="@+id/button5"
-            android:layout_row="1"
-            android:layout_column="0"
-            android:textSize="25dp" />
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:text=")"
+            android:id="@+id/prawynawias_button"
+            android:layout_row="2"
+            android:layout_column="4"
+            android:textSize="20dp" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="√"
-            android:id="@+id/button6"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:text="f(x)"
+            android:id="@+id/fx_button"
+            android:layout_row="0"
+            android:layout_column="5" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:text="sin"
+            android:id="@+id/sin_button"
             android:layout_row="1"
+            android:layout_column="5" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:text="cos"
+            android:id="@+id/cos_button"
+            android:layout_row="2"
+            android:layout_column="5" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:text="tg"
+            android:id="@+id/tg_button"
+            android:layout_row="3"
+            android:layout_column="5" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:text="ctg"
+            android:id="@+id/ctg_button"
+            android:layout_row="4"
+            android:layout_column="5" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:text="a"
+            android:id="@+id/hexa_A_button"
+            android:layout_row="5"
+            android:layout_column="3" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:text="b"
+            android:id="@+id/hexa_B_button"
+            android:layout_row="5"
+            android:layout_column="4" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:text="c"
+            android:id="@+id/hexa_C_button"
+            android:layout_row="5"
+            android:layout_column="5" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:text="D"
+            android:id="@+id/hexa_D_button"
+            android:layout_row="6"
+            android:layout_column="3" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:text="E"
+            android:id="@+id/hexa_E_button"
+            android:layout_row="6"
+            android:layout_column="4" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:text="F"
+            android:id="@+id/hexa_F_button"
+            android:layout_row="6"
+            android:layout_column="5" />
+
+        <Button
+        android:layout_width="60dp"
+        android:layout_height="45dp"
+        android:text="M"
+        android:id="@+id/memory_button"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:textSize="20dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:text="C"
+            android:id="@+id/clear_button"
+            android:layout_row="2"
             android:layout_column="1"
-            android:textSize="25dp" />
+            android:textSize="20dp" />
 
         <Button
-            android:layout_width="165dp"
-            android:layout_height="wrap_content"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:text="^"
+            android:id="@+id/potega_button"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:text="√"
+            android:id="@+id/pierwiastek_button"
+            android:layout_row="1"
+            android:layout_column="4"
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_width="360dp"
+            android:layout_height="45dp"
             android:text="←"
             android:id="@+id/clearOneChar"
-            android:layout_row="1"
-            android:layout_column="2"
-            android:textSize="25dp"
-            android:layout_columnSpan="2" />
+            android:layout_row="7"
+            android:layout_column="0"
+            android:textSize="20dp"
+            android:layout_columnSpan="6" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
             android:text="1"
             android:id="@+id/liczba_1"
             android:layout_row="3"
             android:layout_column="0"
-            android:textSize="25dp" />
+            android:textSize="20dp" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
             android:text="2"
             android:id="@+id/liczba_2"
             android:layout_row="3"
             android:layout_column="1"
-            android:textSize="25dp" />
+            android:textSize="20dp" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
             android:text="3"
             android:id="@+id/liczba_3"
             android:layout_row="3"
             android:layout_column="2"
-            android:textSize="25dp" />
+            android:textSize="20dp" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
             android:text="+"
-            android:id="@+id/button11"
+            android:id="@+id/dodawanie_button"
             android:layout_row="3"
             android:layout_column="3"
-            android:textSize="25dp" />
+            android:textSize="20dp" />
 
         <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="60dp"
+        android:layout_height="45dp"
         android:text="4"
         android:id="@+id/liczba_4"
         android:layout_row="4"
         android:layout_column="0"
-        android:textSize="25dp" />
+        android:textSize="20dp" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
             android:text="5"
             android:id="@+id/liczba_5"
             android:layout_row="4"
             android:layout_column="1"
-            android:textSize="25dp" />
+            android:textSize="20dp" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
             android:text="6"
             android:id="@+id/liczba_6"
             android:layout_row="4"
             android:layout_column="2"
-            android:textSize="25dp" />
+            android:textSize="20dp" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
             android:text="-"
-            android:id="@+id/button15"
-            android:layout_row="4"
-            android:layout_column="3"
-            android:textSize="25dp" />
+            android:id="@+id/odejmowanie_button"
+            android:layout_row="3"
+            android:layout_column="4"
+            android:textSize="20dp" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
             android:text="7"
             android:id="@+id/liczba_7"
             android:layout_row="5"
             android:layout_column="0"
-            android:textSize="25dp" />
+            android:textSize="20dp" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
             android:text="8"
             android:id="@+id/liczba_8"
             android:layout_row="5"
             android:layout_column="1"
-            android:textSize="25dp" />
+            android:textSize="20dp" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
             android:text="9"
             android:id="@+id/liczba_9"
             android:layout_row="5"
             android:layout_column="2"
-            android:textSize="25dp" />
+            android:textSize="20dp" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
             android:text="*"
-            android:id="@+id/button19"
-            android:layout_row="5"
+            android:id="@+id/mnozenie_button"
+            android:layout_row="4"
             android:layout_column="3"
-            android:textSize="25dp" />
+            android:textSize="20dp" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
             android:text="0"
             android:id="@+id/liczba_0"
             android:layout_row="6"
             android:layout_column="0"
-            android:textSize="25dp" />
+            android:textSize="20dp" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
             android:text="."
-            android:id="@+id/button21"
+            android:id="@+id/przecinek_button"
             android:layout_row="6"
             android:layout_column="1"
-            android:textSize="25dp" />
+            android:textSize="20dp" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
             android:text="="
-            android:id="@+id/button22"
+            android:id="@+id/wynik_button"
             android:layout_row="6"
             android:layout_column="2"
-            android:textSize="25dp" />
+            android:textSize="20dp"
+            android:layout_columnSpan="2"/>
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
             android:text="/"
-            android:id="@+id/button23"
-            android:layout_row="6"
-            android:layout_column="3"
-            android:textSize="25dp" />
+            android:id="@+id/dzielenie_button"
+            android:layout_row="4"
+            android:layout_column="4"
+            android:textSize="20dp" />
 
     </GridLayout>
 
