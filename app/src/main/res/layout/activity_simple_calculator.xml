@@ -23,7 +23,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="("
-            android:id="@+id/button"
+            android:id="@id/lewynawias_button"
             android:layout_row="0"
             android:layout_column="0"
             android:textSize="25dp" />
@@ -32,7 +32,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=")"
-            android:id="@+id/button2"
+            android:id="@id/prawynawias_button"
             android:layout_row="0"
             android:layout_column="1"
             android:textSize="25dp" />
@@ -41,7 +41,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="M"
-        android:id="@+id/button3"
+        android:id="@id/memory_button"
         android:layout_row="0"
         android:layout_column="2"
         android:textSize="25dp" />
@@ -50,7 +50,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="C"
-            android:id="@+id/button4"
+            android:id="@id/clear_button"
             android:layout_row="0"
             android:layout_column="3"
             android:textSize="25dp" />
@@ -59,7 +59,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="^"
-            android:id="@+id/button5"
+            android:id="@id/potega_button"
             android:layout_row="1"
             android:layout_column="0"
             android:textSize="25dp" />
@@ -68,7 +68,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="√"
-            android:id="@+id/button6"
+            android:id="@id/pierwiastek_button"
             android:layout_row="1"
             android:layout_column="1"
             android:textSize="25dp" />
@@ -114,7 +114,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="+"
-            android:id="@+id/button11"
+            android:id="@id/dodawanie_button"
             android:layout_row="3"
             android:layout_column="3"
             android:textSize="25dp" />
@@ -150,7 +150,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="-"
-            android:id="@+id/button15"
+            android:id="@id/odejmowanie_button"
             android:layout_row="4"
             android:layout_column="3"
             android:textSize="25dp" />
@@ -186,7 +186,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="*"
-            android:id="@+id/button19"
+            android:id="@id/mnozenie_button"
             android:layout_row="5"
             android:layout_column="3"
             android:textSize="25dp" />
@@ -204,7 +204,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="."
-            android:id="@+id/button21"
+            android:id="@id/przecinek_button"
             android:layout_row="6"
             android:layout_column="1"
             android:textSize="25dp" />
@@ -213,7 +213,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="="
-            android:id="@+id/button22"
+            android:id="@id/wynik_button"
             android:layout_row="6"
             android:layout_column="2"
             android:textSize="25dp" />
@@ -222,7 +222,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="/"
-            android:id="@+id/button23"
+            android:id="@id/dzielenie_button"
             android:layout_row="6"
             android:layout_column="3"
             android:textSize="25dp" />
