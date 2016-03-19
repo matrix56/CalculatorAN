@@ -10,13 +10,22 @@ public class CalculatorService implements CalculatorEngine {
     // ! Piszcie komentarze do metod.
 
 
-    //dzielenie modularne ( a - licznik, b - dzielnik)
+    /**
+     * dzielenie modularne
+     * @param a - licznik
+     * @param b - dzielnik
+     * @return - wynik operacji dzielenia modularnego a przez b
+     */
     @Override
     public int mod(int a, int b) {
         return  a % b;
     }
 
-    //silnia rekurencyjnie( a - stopien silni)
+    /**
+     * silnia
+     * @param a - stopien potegi
+     * @return - wartość n-silni
+     */
     @Override
     public int fact(int a) {
         if (a < 1){
