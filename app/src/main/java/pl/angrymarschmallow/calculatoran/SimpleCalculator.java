@@ -28,6 +28,8 @@ public class SimpleCalculator extends AppCompatActivity {
     private Button lewynawias_button;
     private Button prawynawias_button;
 
+    private Button dodawanie_button;
+
 
     ButtonChecker bc;
     SimpleCalculator sc;
@@ -138,6 +140,8 @@ public class SimpleCalculator extends AppCompatActivity {
         this.lewynawias_button = (Button) findViewById(R.id.lewynawias_button);
         this.prawynawias_button = (Button) findViewById(R.id.prawynawias_button);
 
+        this.dodawanie_button = (Button) findViewById(R.id.dodawanie_button);
+
         this.wynik_button = (Button) findViewById(R.id.wynik_button);
         this.clearOneChar = (Button) findViewById(R.id.clearOneChar);
 
@@ -156,6 +160,13 @@ public class SimpleCalculator extends AppCompatActivity {
         });
 
         prawynawias_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                bc.clearTextView(pole_wpisywania);
+            }
+        });
+
+        dodawanie_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 bc.clearTextView(pole_wpisywania);
