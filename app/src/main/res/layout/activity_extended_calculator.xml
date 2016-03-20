@@ -13,18 +13,17 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="false"
-        android:layout_alignParentLeft="false"
         android:layout_alignParentBottom="true"
         android:rowCount="8"
         android:columnCount="6"
         android:id="@+id/gridLayout"
         android:layout_alignParentEnd="false"
-        android:layout_alignParentRight="false">
+        >
 
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="Mod"
+            android:text="@string/Mod"
             android:id="@+id/mod_button"
             android:layout_row="0"
             android:layout_column="0" />
@@ -32,7 +31,7 @@
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="D-B"
+            android:text="@string/decimalbinar"
             android:id="@+id/decimal_binar_button"
             android:layout_row="1"
             android:layout_column="0"
@@ -41,7 +40,7 @@
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="D"
+            android:text="@string/doskonala"
             android:id="@+id/doskonala_button"
             android:layout_row="0"
             android:layout_column="2" />
@@ -49,7 +48,7 @@
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="P"
+            android:text="@string/pierwsza"
             android:id="@+id/pierwsza_button"
             android:layout_row="0"
             android:layout_column="1" />
@@ -57,7 +56,7 @@
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="Nw"
+            android:text="@string/Nwd"
             android:id="@+id/nwd_button"
             android:layout_row="0"
             android:layout_column="3" />
@@ -65,7 +64,7 @@
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="!"
+            android:text="@string/silnia"
             android:id="@+id/silnia_button"
             android:layout_row="0"
             android:layout_column="4" />
@@ -73,7 +72,7 @@
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="B-D"
+            android:text="@string/binardecimal"
             android:id="@+id/binar_decimal_button"
             android:layout_row="1"
             android:layout_column="1" />
@@ -81,7 +80,7 @@
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="D-X"
+            android:text="@string/decimalhexadecimal"
             android:id="@+id/decimal_hexadecimal_button"
             android:layout_row="1"
             android:layout_column="2" />
@@ -89,7 +88,7 @@
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="X-D"
+            android:text="@string/hexadecimaldecimal"
             android:id="@+id/hexadecimal_decimal_button"
             android:layout_row="1"
             android:layout_column="3" />
@@ -97,25 +96,25 @@
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="("
+            android:text="@string/lewynawias"
             android:id="@+id/lewynawias_button"
             android:layout_row="2"
             android:layout_column="3"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text=")"
+            android:text="@string/prawynawias"
             android:id="@+id/prawynawias_button"
             android:layout_row="2"
             android:layout_column="4"
-            android:textSize="20dp" />
+            android:textSize="15sp" />
 
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="f(x)"
+            android:text="@string/fodx"
             android:id="@+id/fx_button"
             android:layout_row="0"
             android:layout_column="5" />
@@ -123,7 +122,7 @@
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="sin"
+            android:text="@string/sin"
             android:id="@+id/sin_button"
             android:layout_row="1"
             android:layout_column="5" />
@@ -131,7 +130,7 @@
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="cos"
+            android:text="@string/cos"
             android:id="@+id/cos_button"
             android:layout_row="2"
             android:layout_column="5" />
@@ -139,7 +138,7 @@
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="tg"
+            android:text="@string/tg"
             android:id="@+id/tg_button"
             android:layout_row="3"
             android:layout_column="5" />
@@ -147,7 +146,7 @@
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="ctg"
+            android:text="@string/ctg"
             android:id="@+id/ctg_button"
             android:layout_row="4"
             android:layout_column="5" />
@@ -155,7 +154,7 @@
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="a"
+            android:text="@string/A"
             android:id="@+id/hexa_A_button"
             android:layout_row="5"
             android:layout_column="3" />
@@ -163,7 +162,7 @@
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="b"
+            android:text="@string/B"
             android:id="@+id/hexa_B_button"
             android:layout_row="5"
             android:layout_column="4" />
@@ -171,7 +170,7 @@
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="c"
+            android:text="@string/C"
             android:id="@+id/hexa_C_button"
             android:layout_row="5"
             android:layout_column="5" />
@@ -179,7 +178,7 @@
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="D"
+            android:text="@string/D"
             android:id="@+id/hexa_D_button"
             android:layout_row="6"
             android:layout_column="3" />
@@ -187,7 +186,7 @@
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="E"
+            android:text="@string/E"
             android:id="@+id/hexa_E_button"
             android:layout_row="6"
             android:layout_column="4" />
@@ -195,7 +194,7 @@
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="F"
+            android:text="@string/F"
             android:id="@+id/hexa_F_button"
             android:layout_row="6"
             android:layout_column="5" />
@@ -203,204 +202,204 @@
         <Button
         android:layout_width="60dp"
         android:layout_height="45dp"
-        android:text="M"
+        android:text="@string/memory"
         android:id="@+id/memory_button"
         android:layout_row="2"
         android:layout_column="0"
-        android:textSize="20dp" />
+        android:textSize="20sp" />
 
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="C"
+            android:text="@string/clear"
             android:id="@+id/clear_button"
             android:layout_row="2"
             android:layout_column="1"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="^"
+            android:text="@string/potega"
             android:id="@+id/potega_button"
             android:layout_row="2"
             android:layout_column="2"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="√"
+            android:text="@string/pierwiastek"
             android:id="@+id/pierwiastek_button"
             android:layout_row="1"
             android:layout_column="4"
-            android:textSize="20dp" />
+            android:textSize="15sp" />
 
         <Button
             android:layout_width="360dp"
             android:layout_height="45dp"
-            android:text="←"
+            android:text="@string/clearone"
             android:id="@+id/clearOneChar"
             android:layout_row="7"
             android:layout_column="0"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_columnSpan="6" />
 
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="1"
+            android:text="@string/num1"
             android:id="@+id/liczba_1"
             android:layout_row="3"
             android:layout_column="0"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="2"
+            android:text="@string/num2"
             android:id="@+id/liczba_2"
             android:layout_row="3"
             android:layout_column="1"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="3"
+            android:text="@string/num3"
             android:id="@+id/liczba_3"
             android:layout_row="3"
             android:layout_column="2"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="+"
+            android:text="@string/dodawanie"
             android:id="@+id/dodawanie_button"
             android:layout_row="3"
             android:layout_column="3"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <Button
         android:layout_width="60dp"
         android:layout_height="45dp"
-        android:text="4"
+        android:text="@string/num4"
         android:id="@+id/liczba_4"
         android:layout_row="4"
         android:layout_column="0"
-        android:textSize="20dp" />
+        android:textSize="20sp" />
 
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="5"
+            android:text="@string/num5"
             android:id="@+id/liczba_5"
             android:layout_row="4"
             android:layout_column="1"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="6"
+            android:text="@string/num6"
             android:id="@+id/liczba_6"
             android:layout_row="4"
             android:layout_column="2"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="-"
+            android:text="@string/odejmowanie"
             android:id="@+id/odejmowanie_button"
             android:layout_row="3"
             android:layout_column="4"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="7"
+            android:text="@string/num7"
             android:id="@+id/liczba_7"
             android:layout_row="5"
             android:layout_column="0"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="8"
+            android:text="@string/num8"
             android:id="@+id/liczba_8"
             android:layout_row="5"
             android:layout_column="1"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="9"
+            android:text="@string/num9"
             android:id="@+id/liczba_9"
             android:layout_row="5"
             android:layout_column="2"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="*"
+            android:text="@string/mnozenie"
             android:id="@+id/mnozenie_button"
             android:layout_row="4"
             android:layout_column="3"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="0"
+            android:text="@string/num0"
             android:id="@+id/liczba_0"
             android:layout_row="6"
             android:layout_column="0"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="."
+            android:text="@string/przecinek"
             android:id="@+id/przecinek_button"
             android:layout_row="6"
             android:layout_column="1"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="="
+            android:text="@string/wynik"
             android:id="@+id/wynik_button"
             android:layout_row="6"
             android:layout_column="2"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_columnSpan="2"/>
 
         <Button
             android:layout_width="60dp"
             android:layout_height="45dp"
-            android:text="/"
+            android:text="@string/dzielenie"
             android:id="@+id/dzielenie_button"
             android:layout_row="4"
             android:layout_column="4"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
     </GridLayout>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="0.00"
+        android:text="@string/default.text"
         android:id="@+id/wynik"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:textColor="#000"
         android:singleLine="false"
         android:textAlignment="viewEnd" />
@@ -411,7 +410,9 @@
         android:id="@+id/pole_wpisywania"
         android:layout_below="@+id/wynik"
         android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:labelFor="@id/pole_wpisywania"
+        android:inputType="numberDecimal" />
 
 
 </RelativeLayout>

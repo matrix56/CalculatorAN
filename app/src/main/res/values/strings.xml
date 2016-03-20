@@ -1,3 +1,47 @@
 <resources>
     <string name="app_name">CalculatorAN</string>
+    <string name="Mod">Mod</string>
+    <string name="decimalbinar">D-B</string>
+    <string name="doskonala">D</string>
+    <string name="pierwsza">P</string>
+    <string name="Nwd">Nwd</string>
+    <string name="silnia">!</string>
+    <string name="binardecimal">B-D</string>
+    <string name="decimalhexadecimal">D-X</string>
+    <string name="hexadecimaldecimal">X-D</string>
+    <string name="lewynawias">(</string>
+    <string name="prawynawias">)</string>
+    <string name="fodx">f(x)</string>
+    <string name="sin">sin</string>
+    <string name="cos">cos</string>
+    <string name="tg">tg</string>
+    <string name="ctg">ctg</string>
+    <string name="A">a</string>
+    <string name="B">b</string>
+    <string name="C">c</string>
+    <string name="D">D</string>
+    <string name="E">E</string>
+    <string name="F">F</string>
+    <string name="memory">M</string>
+    <string name="clear">C</string>
+    <string name="potega">^</string>
+    <string name="pierwiastek">√</string>
+    <string name="clearone">←</string>
+    <string name="num1">1</string>
+    <string name="num2">2</string>
+    <string name="num3">3</string>
+    <string name="dodawanie">+</string>
+    <string name="num4">4</string>
+    <string name="num5">5</string>
+    <string name="num6">6</string>
+    <string name="odejmowanie">-</string>
+    <string name="num7">7</string>
+    <string name="num8">8</string>
+    <string name="num9">9</string>
+    <string name="mnozenie">*</string>
+    <string name="num0">0</string>
+    <string name="przecinek">.</string>
+    <string name="wynik">=</string>
+    <string name="dzielenie">/</string>
+    <string name="default.text">0.00</string>
 </resources>
