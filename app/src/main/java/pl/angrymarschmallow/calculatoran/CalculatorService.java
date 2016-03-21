@@ -65,7 +65,15 @@ public class CalculatorService implements CalculatorEngine {
     public double sqrt(double a, double b) {
         return 0;
     }
-//zwraca delte i liste pierwiastkow w tablicy
+
+
+    /**
+     * zwraca delte i liste pierwiastkow w tablicy
+     * @param a double
+     * @param b double
+     * @param c double
+     * @return zwraca wartosc delty i pierwiastki
+     */
     @Override
     public double[] quadratic(double a, double b, double c) {
         double[] rozw;
@@ -74,14 +82,14 @@ public class CalculatorService implements CalculatorEngine {
         if (delta<0){
             rozw = new double[1];
             rozw[0]=delta;
-            return rozw;}   //zwraca wartosc delty
+            return rozw;}
         else if (delta == 0)
         {
             x1=(-b)/(2*a);
             rozw = new double[2];
             rozw[0]=delta;
             rozw[1]=x1;
-            return rozw; //zwraca wartosc delty i pierwiastek
+            return rozw;
         }
         else if (delta>0)
         {
@@ -91,7 +99,7 @@ public class CalculatorService implements CalculatorEngine {
             rozw[0]=delta;
             rozw[1]=x1;
             rozw[2]=x2;
-        return rozw; //zwraca wartosc delty i pierwiastki
+        return rozw;
     }
         return null;
     }
