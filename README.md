@@ -22,8 +22,8 @@
     - [ ] potęga
     - [ ] pierwiastek
 - Justine007
-  - [ ] funkcje trygonometryczne
-  - [ ] funkcje kwadratowe
+  - [x] funkcje trygonometryczne
+  - [x] funkcje kwadratowe
 - vovan4ik123
   - [ ] Pamięć
 - meandors
