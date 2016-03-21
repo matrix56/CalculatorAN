@@ -126,17 +126,41 @@ public class CalculatorService implements CalculatorEngine {
 
     @Override
     public boolean perfect(int a) {
-        return false;
+        int d=0;
+        //sumowanie dzielnikow liczby
+        for(int i=1;i<a;i++) {
+            if (a % i == 0)
+                d += i;
+        }
+        //czy liczba jest rowna jej dzielnikom
+        if(a==d) {
+            return true;
+        }
+        else {
+            return false;
+        }
     }
 
     @Override
     public boolean first(int a) {
+
+            for(int i=2;i<a;i++) {
+                if (a % i == 0)
+                    return false;
+                else
+                    return true;
+            }
         return false;
     }
 
     @Override
-    public double nwd(int a, int b) {
-        return 0;
+    public int nwd(int a, int b) {
+        if(a>b){
+            a-=b;
+        }else {
+            b-=a;
+        }
+        return a;
     }
 
     // ! Piszcie komentarze do metod.

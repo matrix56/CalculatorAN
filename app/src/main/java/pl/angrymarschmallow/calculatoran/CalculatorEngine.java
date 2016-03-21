@@ -22,7 +22,7 @@ public interface CalculatorEngine {
 
     boolean perfect(int a);     // Liczba doskonała
     boolean first(int a);       // Liczba pierwsza
-    double nwd(int a, int b);   // NWD
+    int nwd(int a, int b);   // NWD
 
     int mod(int a, int b);
     int fact(int a);
