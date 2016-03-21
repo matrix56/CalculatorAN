@@ -3,8 +3,8 @@
 ## Lista zadań
 - scorpion43, Warmish
   - [ ] UI
-    - [ ] widok prosty (SimpleCalculator)
-    - [ ] widok zaawansowany (AdvencedCalculator)
+    - [ ] widok prosty (SimpleCalculator) [przyciski: 0-9, +, -, *, /, =]
+    - [ ] widok zaawansowany (AdvencedCalculator) [przyciski podstawowe + do pozostałych funkcji]
     - [ ] klikanie na przyciski powinno dopisać liczby w TextView z działaniem/wynikiem
     - [ ] klikanie na przyciski działań wywoływać odpowiednie metody i czyścić TextView
 - CrackingMinds
@@ -28,6 +28,10 @@
   - [ ] Pamięć
 - meandors
   - [ ] transformata Fouriera (DFT)
+- matrix56
+  - [ ] liczba pierwsza
+  - [ ] liczba doskonała
+  - [ ] NWD
 
 ## Uwagi
 Wszyscy, którzy jeszcze nie mają zadań niech się zgłaszają do @bodolsog, najlepiej z pomysłami co mogliby zrobić :]
